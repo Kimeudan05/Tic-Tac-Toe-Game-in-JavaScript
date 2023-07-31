@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tic-tac-toe project</title>
+    <link rel="stylesheet" href="tic-tac-toe.css">
+</head>
+<body>
+<!-- The game board with cells -->
+<div class="board" id="board">
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+</div>
+
+<!-- The winning message and restart button container -->
+<div class="winning-message" id="winning-message">
+    <!-- The element to display the winning message or draw message -->
+    <div dataWinningMessageText></div>
+    <!-- The restart button -->
+    <button id="restart-button">Restart</button>
+</div>
+
+<!-- The JavaScript code to run the Tic Tac Toe game -->
+<script src="tic-tac-toe.js"></script>  
+</body>
+</html>
